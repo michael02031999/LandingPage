@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,13 @@
     box-sizing: border-box;
   }
 
+  body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /*--------NAVIGATION--------*/
+
   img {
       width: 300px;
       margin-left: 1em;
@@ -22,9 +31,29 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-  }
+      padding: 30px;
+  } 
 
   nav ul li {
+      font-size: 1.1rem;
       display: inline-block;
       padding: 0 20px;
+      margin-right: 1.5em;
+  }
+
+  #title {
+      text-align: center;
+      font-size: 1.5rem;
+  }
+
+  .email {
+      display: block;
+      background-color: white;
+      margin: 0 auto;
+      text-align: left;
+      width: 20%;
+      padding: 0.3em;
+      border-radius: 0.2em;
+      margin-top: 1em;
+      border: solid black 1px;
   }
