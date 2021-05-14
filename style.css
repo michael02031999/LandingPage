@@ -72,6 +72,39 @@
       background-color: gold;
       margin: 0 auto;
       width: 150px;
-      border-radius: 5px;
+      border-radius: 4px;
       padding: 0.4em;
   }
+
+/*--------SECTION2--------*/
+
+    .icon-container {
+        display: flex;
+        margin-top: 6em;
+        background-color: gold;
+        justify-content: center;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 125px;
+        width: 20vw;
+        color: darkorange
+    }
+
+    .fa-fire {
+        font-size: 60px;
+        color: orange;
+    }
+  
+    .premium {
+        display: block; 
+        font-size: 1.5rem;
+    }
+
+    .para {
+        display: inline;
+    }
+  
