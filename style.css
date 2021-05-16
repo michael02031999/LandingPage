@@ -44,10 +44,6 @@
 
     /*--------SECTION 1--------*/
 
-  section {
-
-  }
-
   #title {
       text-align: center;
       font-size: 1.5rem;
@@ -179,3 +175,29 @@
         padding-left: 1em;
         padding-right: 1em;
     }
+
+/*-----------FOOTER------------*/
+
+    footer {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        height: 80px;
+        background-color: gainsboro;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .top {
+        display: flex;
+        width: 24%;
+        justify-content: space-around;
+    }
+
+    .gray{
+        color: gray;
+        font-size: 0.9rem;
+    }
+    
