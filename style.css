@@ -145,6 +145,30 @@
         width: 31%;
     }
 
+    ol {
+        text-align: center;
+        line-height: 1.8;
+    }
+
+    @media (max-width: 800px) {
+        .trombones {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .TenorTrombone, .BassTrombone, .ValveTrombone {
+            width: 300px;
+            margin-bottom: 1em;
+        }
+        ol {
+            line-height: 1.9;
+        }
+    }
+
+    .ValveTrombone {
+        margin-bottom: 0em;
+    }
+
     .heading {
         background-color: gainsboro;
         text-align: center;
@@ -156,11 +180,6 @@
         text-align: center;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
-    }
-
-    ol {
-        text-align: center;
-        line-height: 1.8;
     }
 
     .secondbutton {
@@ -200,4 +219,6 @@
         color: gray;
         font-size: 0.9rem;
     }
+
+
     
