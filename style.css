@@ -37,16 +37,46 @@
       width: 100%;
   } 
 
+  nav {
+    display: flex;
+    width: 40%;
+  }
+
+  nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
   nav ul li {
       font-size: 1.1rem;
       display: inline-block;
-      padding: 0 20px;
-      margin-right: 1.5em;
+  }
+
+  @media (max-width: 650px) {
+      nav ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
   }
 
   .Space {
-      height: 80px;
+    height: 80px;
+}
+
+  @media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+    }
+    .Space {
+        height: 160px;
+    }
   }
+
+ 
     /*--------SECTION 1--------*/
 
   #title {
