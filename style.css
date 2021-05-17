@@ -137,24 +137,22 @@
         justify-content: center;
         align-items: center;
     }
-  
+
+
     .text {
         display: flex;
         width: 80vw;
         flex-direction: column;
     }
 
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    /*--------SECTION3--------*/
+/*--------SECTION3--------*/
 
     .section3 {
         max-width: 1000px;
         width: 100%;
         margin: 0 auto;
     }
+    
 
     .video {
         text-align: center;
@@ -165,7 +163,32 @@
     iframe {
         height: 300px;
         width: 600px;
-        
+    }
+
+    @media (max-width: 550px) {
+        .icon {
+           display: none;
+        }
+        .text {
+            display: flex; 
+            width: 100vw;
+        }
+        .text h2 {
+            text-align: center; 
+        }
+
+        .text p {
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+        }
+    }
+  
+
+    h2 {
+        font-size: 1.5rem;
     }
 
     /*--------SECTION3 - PRICING--------*/
